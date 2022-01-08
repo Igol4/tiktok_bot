@@ -18,7 +18,6 @@ from pynput.keyboard import Key, Listener
 
 def on_press(key):
     pass
-
 def on_release(key):
     if key == Key.esc or key == Key.f2:
             y=50
@@ -33,7 +32,7 @@ with Listener(on_press=on_press, on_release=on_release) as listener:
     #print(f.read())
     webbrowser.open('http://tiktok.com')
     mouse = Controller()
-    #print ("Current position: " + str(mouse.position))
+    #print ("Current position: " + str(mouse.position)) #this way you can find your current mouse coordinates on the screen so you can put those numbers in mouse.position = (x, y)
     mouse.position = (997, 564) 
     time.sleep(5)
     mouse.press(Button.left)
