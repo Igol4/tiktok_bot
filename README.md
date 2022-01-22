@@ -12,5 +12,7 @@
 # Fixes
   * Misspelling comments can be fixed to change your keyboard input to English in Windows settings
   * For other issues I'm trying to find a fix
-  
+# Updates
+  * v2 coming soon
+  * based on selenium module
   Enjoy!
