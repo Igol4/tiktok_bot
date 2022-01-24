@@ -16,4 +16,5 @@
   * v2 coming soon
   * based on selenium module
   Enjoy!
-  paypal.me/Igol4
+  
+ You can donate [here](paypal.me/Igol4).
